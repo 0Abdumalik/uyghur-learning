@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.wikiwand.com)",
+      "WebFetch(domain:en.uniapp.dcloud.io)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "WebFetch(domain:wot-design-uni.cn)",
+      "WebFetch(domain:github.com)",
+      "Bash(grep -r \"icon-name\\\\|icon_name\\\\|iconName\" I:/newProj/microApp_uighurStyle/node_modules/wot-design-uni/components/wd-icon/ --include=*.scss --include=*.ts -l)",
+      "Bash(node -e \":*)",
+      "Bash(grep -l \"wd-navbar\" src/pages/*/index.vue)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//i/newProj/microApp_uighurStyle/**)",
+      "Bash(done)",
+      "Bash(cd:*)"
+    ]
+  }
+}
